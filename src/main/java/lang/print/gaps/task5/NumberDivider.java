@@ -1,6 +1,12 @@
 package lang.print.gaps.task5;
 
 public class NumberDivider {
-    void divide(int toBeDivided) {
+    static int divide(int toBeDivided) {
+        return toBeDivided / 5;
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(divide(45));
     }
 }
